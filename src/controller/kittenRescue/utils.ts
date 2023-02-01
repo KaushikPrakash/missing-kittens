@@ -30,3 +30,8 @@ export const findCoordinates = (flightPath: DirectionList): Coordinates => {
   }
   return ({ x, y });
 };
+
+export const isValidEmail = (email: string): boolean => {
+  const reqex = /\S+@\S+\.\S+/;
+  return reqex.test(email);
+}

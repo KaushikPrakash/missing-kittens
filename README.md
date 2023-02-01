@@ -10,7 +10,7 @@ A simple Node.js Application to dispatch the search team to find the missing kit
 
 `$ npm run serve`
 
-#### Run tes
+#### Run tests
 
 `$ npm run test`
 
